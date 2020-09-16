@@ -20,17 +20,12 @@ export default {
   },
   data() {
     return {
-      movies: [
-        {
-          id: 1,
-          title: "Movie One"
-        },
-        {
-          id: 2,
-          title: "Movie Two"
-        }
-      ]
+      movies: []
     }
+  },
+  methods: {},
+  created() {
+    
   }
 }
 </script>
